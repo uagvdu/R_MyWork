@@ -1,0 +1,75 @@
+Nov 20 17:15:12 admin su: pam_unix(su:session): session opened for user root by adobe(uid=502)
+Nov 20 17:17:45 admin su: pam_unix(su:session): session closed for user root
+Nov 20 17:20:19 admin su: pam_unix(su:session): session opened for user root by adobe(uid=502)
+Nov 20 17:20:29 admin sshd[3577]: Accepted publickey for root from 127.0.0.1 port 54415 ssh2
+Nov 20 17:20:29 admin sshd[3577]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 20 17:20:33 admin sshd[3577]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Nov 20 17:20:33 admin sshd[3577]: pam_unix(sshd:session): session closed for user root
+Nov 20 18:09:31 admin sshd[4294]: Accepted publickey for root from 127.0.0.1 port 54427 ssh2
+Nov 20 18:09:31 admin sshd[4294]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 20 18:09:36 admin sshd[4294]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Nov 20 18:09:36 admin sshd[4294]: pam_unix(sshd:session): session closed for user root
+Nov 20 18:24:36 admin su: pam_unix(su:session): session closed for user root
+Nov 20 18:25:52 admin su: pam_unix(su:session): session opened for user root by adobe(uid=502)
+Nov 20 18:29:04 admin sshd[4885]: Accepted publickey for root from 127.0.0.1 port 54441 ssh2
+Nov 20 18:29:04 admin sshd[4885]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 20 18:29:08 admin sshd[4885]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Nov 20 18:29:08 admin sshd[4885]: pam_unix(sshd:session): session closed for user root
+Nov 20 18:39:17 admin su: pam_unix(su:session): session closed for user root
+Nov 20 18:39:17 admin polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.52, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Nov 20 18:39:19 admin sshd[1839]: Received signal 15; terminating.
+Nov 20 18:40:01 admin sshd[1788]: Server listening on 0.0.0.0 port 22.
+Nov 20 18:40:01 admin sshd[1788]: Server listening on :: port 22.
+Nov 20 18:40:05 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 18:40:22 admin pam: gdm-password: pam_unix(gdm-password:session): session opened for user adobe by (uid=0)
+Nov 20 18:40:22 admin polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 18:40:24 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.44 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Nov 20 18:42:41 admin su: pam_unix(su:session): session opened for user root by adobe(uid=502)
+Nov 20 19:01:21 admin userhelper[2933]: running '/sbin/reboot ' with root privileges on behalf of 'root'
+Nov 20 19:01:21 admin su: pam_unix(su:session): session closed for user root
+Nov 20 19:01:21 admin polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.44, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Nov 20 19:01:23 admin sshd[1788]: Received signal 15; terminating.
+Nov 20 19:02:01 admin sshd[1774]: Server listening on 0.0.0.0 port 22.
+Nov 20 19:02:01 admin sshd[1774]: Server listening on :: port 22.
+Nov 20 19:02:05 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 19:03:51 admin pam: gdm-password: pam_unix(gdm-password:session): session opened for user adobe by (uid=0)
+Nov 20 19:03:52 admin polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 19:03:58 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.44 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Nov 20 19:06:53 admin su: pam_unix(su:session): session opened for user root by adobe(uid=502)
+Dec  4 09:40:56 admin sshd[1836]: Server listening on 0.0.0.0 port 22.
+Dec  4 09:40:56 admin sshd[1836]: Server listening on :: port 22.
+Dec  4 09:40:59 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec  4 09:41:28 admin pam: gdm-password: pam_selinux_permit(gdm-password:auth): Cannot determine the user's name
+Dec  4 09:41:28 admin pam: gdm-password: pam_succeed_if(gdm-password:auth): error retrieving user name: Conversation error
+Dec  4 09:41:28 admin pam: gdm-password: gkr-pam: couldn't get the user name: Conversation error
+Dec  4 09:41:42 admin pam: gdm-password: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Dec  4 09:41:43 admin polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec  4 09:41:47 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.50 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec  4 09:42:02 admin useradd[2707]: new group: name=rzx, GID=503
+Dec  4 09:42:02 admin useradd[2707]: new user: name=rzx, UID=503, GID=503, home=/home/rzx, shell=/bin/bash
+Dec  4 09:42:12 admin passwd: pam_unix(passwd:chauthtok): password changed for rzx
+Dec  4 09:42:12 admin passwd: gkr-pam: couldn't update the 'login' keyring password: no old password was entered
+Dec  4 09:42:21 admin polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.50, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec  4 09:42:22 admin sshd[1836]: Received signal 15; terminating.
+Dec  4 09:42:56 admin sshd[1784]: Server listening on 0.0.0.0 port 22.
+Dec  4 09:42:56 admin sshd[1784]: Server listening on :: port 22.
+Dec  4 09:43:00 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec  4 09:51:09 admin unix_chkpwd[2236]: password check failed for user (rzx)
+Dec  4 09:51:09 admin pam: gdm-password: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=rzx
+Dec  4 09:51:18 admin unix_chkpwd[2240]: password check failed for user (rzx)
+Dec  4 09:51:18 admin pam: gdm-password: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=rzx
+Dec  4 09:51:28 admin unix_chkpwd[2243]: password check failed for user (rzx)
+Dec  4 09:51:28 admin pam: gdm-password: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=rzx
+Dec  4 09:51:42 admin pam: gdm-password: pam_unix(gdm-password:auth): check pass; user unknown
+Dec  4 09:51:42 admin pam: gdm-password: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Dec  4 09:51:42 admin pam: gdm-password: pam_succeed_if(gdm-password:auth): error retrieving information about user Rzx
+Dec  4 09:51:42 admin pam: gdm-password: gkr-pam: error looking up user information for: Rzx
+Dec  4 09:51:49 admin pam: gdm-password: pam_unix(gdm-password:auth): conversation failed
+Dec  4 09:51:49 admin pam: gdm-password: pam_unix(gdm-password:auth): auth could not identify password for [rzx]
+Dec  4 09:51:49 admin pam: gdm-password: gkr-pam: no password is available for user
+Dec  4 09:51:54 admin pam: gdm-password: pam_unix(gdm-password:session): session opened for user ablock by (uid=0)
+Dec  4 09:51:54 admin polkitd(authority=local): Unregistered Authentication Agent for session /org/freedesktop/ConsoleKit/Session1 (system bus name :1.24, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec  4 09:51:56 admin polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.51 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec  4 09:52:13 admin su: pam_unix(su:session): session opened for user root by ablock(uid=501)
+Dec  4 09:52:44 admin userdel[2722]: delete user 'rzx'
+Dec  4 09:52:44 admin userdel[2722]: removed group 'rzx' owned by 'rzx'
