@@ -1,0 +1,92 @@
+Oct 22 11:24:01 admin run-parts(/etc/cron.daily)[2982]: finished logrotate
+Oct 22 11:24:01 admin run-parts(/etc/cron.daily)[2963]: starting makewhatis.cron
+Oct 22 11:24:02 admin run-parts(/etc/cron.daily)[3149]: finished makewhatis.cron
+Oct 22 11:24:02 admin run-parts(/etc/cron.daily)[2963]: starting mlocate.cron
+Oct 22 11:24:03 admin run-parts(/etc/cron.daily)[3160]: finished mlocate.cron
+Oct 22 11:24:03 admin run-parts(/etc/cron.daily)[2963]: starting prelink
+Oct 22 11:24:09 admin run-parts(/etc/cron.daily)[5047]: finished prelink
+Oct 22 11:24:09 admin run-parts(/etc/cron.daily)[2963]: starting readahead.cron
+Oct 22 11:24:09 admin run-parts(/etc/cron.daily)[5059]: finished readahead.cron
+Oct 22 11:24:09 admin run-parts(/etc/cron.daily)[2963]: starting tmpwatch
+Oct 22 11:24:09 admin run-parts(/etc/cron.daily)[5097]: finished tmpwatch
+Oct 22 11:24:09 admin anacron[2931]: Job `cron.daily' terminated
+Oct 22 11:30:01 admin CROND[5108]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 11:40:01 admin CROND[5119]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 11:44:01 admin anacron[2931]: Job `cron.weekly' started
+Oct 22 11:44:01 admin anacron[2931]: Job `cron.weekly' terminated
+Oct 22 11:50:01 admin CROND[5134]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 12:00:01 admin CROND[5151]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 12:01:01 admin CROND[5156]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 22 12:01:01 admin run-parts(/etc/cron.hourly)[5156]: starting 0anacron
+Oct 22 12:01:01 admin run-parts(/etc/cron.hourly)[5165]: finished 0anacron
+Oct 22 12:04:01 admin anacron[2931]: Job `cron.monthly' started
+Oct 22 12:04:01 admin run-parts(/etc/cron.monthly)[5166]: starting readahead-monthly.cron
+Oct 22 12:04:01 admin run-parts(/etc/cron.monthly)[5173]: finished readahead-monthly.cron
+Oct 22 12:04:01 admin anacron[2931]: Job `cron.monthly' terminated
+Oct 22 12:04:01 admin anacron[2931]: Normal exit (3 jobs run)
+Oct 22 12:10:14 admin crond[1931]: (CRON) STARTUP (1.4.4)
+Oct 22 12:10:14 admin crond[1931]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 7% if used.)
+Oct 22 12:10:15 admin crond[1931]: (CRON) INFO (running with inotify support)
+Oct 22 12:20:01 admin CROND[2741]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 12:30:01 admin CROND[2778]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 12:40:01 admin CROND[2794]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 12:50:01 admin CROND[2797]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 13:00:01 admin CROND[2813]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 13:01:01 admin CROND[2816]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 22 13:01:01 admin run-parts(/etc/cron.hourly)[2816]: starting 0anacron
+Oct 22 13:01:01 admin run-parts(/etc/cron.hourly)[2825]: finished 0anacron
+Oct 22 13:10:01 admin CROND[2841]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 13:20:01 admin CROND[2859]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 13:30:01 admin CROND[2862]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 13:40:01 admin CROND[2883]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 13:50:01 admin CROND[2899]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 14:00:01 admin CROND[2903]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 14:01:01 admin CROND[2906]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 22 14:01:01 admin run-parts(/etc/cron.hourly)[2906]: starting 0anacron
+Oct 22 14:01:01 admin run-parts(/etc/cron.hourly)[2915]: finished 0anacron
+Oct 22 14:10:01 admin CROND[2931]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 14:20:01 admin CROND[2949]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 14:30:01 admin CROND[2952]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 14:40:01 admin CROND[2968]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 14:50:01 admin CROND[2984]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 15:00:01 admin CROND[3000]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 15:01:01 admin CROND[3003]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 22 15:01:01 admin run-parts(/etc/cron.hourly)[3003]: starting 0anacron
+Oct 22 15:01:01 admin run-parts(/etc/cron.hourly)[3012]: finished 0anacron
+Oct 22 15:10:01 admin CROND[3015]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 15:20:01 admin CROND[3033]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 15:30:01 admin CROND[3049]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 15:40:01 admin CROND[3053]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 15:50:01 admin CROND[3069]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 16:00:01 admin CROND[3085]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 16:01:01 admin CROND[3088]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 22 16:01:01 admin run-parts(/etc/cron.hourly)[3088]: starting 0anacron
+Oct 22 16:01:01 admin run-parts(/etc/cron.hourly)[3097]: finished 0anacron
+Oct 22 16:10:01 admin CROND[3113]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 16:20:01 admin CROND[3131]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 16:30:01 admin CROND[3147]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 16:40:01 admin CROND[3150]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 16:50:01 admin CROND[3166]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 17:00:01 admin CROND[3182]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 17:01:01 admin CROND[3185]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 22 17:01:01 admin run-parts(/etc/cron.hourly)[3185]: starting 0anacron
+Oct 22 17:01:01 admin run-parts(/etc/cron.hourly)[3194]: finished 0anacron
+Oct 22 17:10:01 admin CROND[3197]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 17:20:01 admin CROND[3216]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 17:30:01 admin CROND[3232]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 17:40:01 admin CROND[3248]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 17:50:01 admin CROND[3251]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Oct 22 18:00:01 admin CROND[3267]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Nov  6 19:00:02 admin CROND[3364]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Nov  6 19:01:01 admin CROND[3379]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  6 19:01:01 admin run-parts(/etc/cron.hourly)[3379]: starting 0anacron
+Nov  6 19:01:01 admin anacron[3391]: Anacron started on 2017-11-06
+Nov  6 19:01:01 admin run-parts(/etc/cron.hourly)[3393]: finished 0anacron
+Nov  6 19:01:01 admin anacron[3391]: Will run job `cron.daily' in 10 min.
+Nov  6 19:01:01 admin anacron[3391]: Will run job `cron.weekly' in 30 min.
+Nov  6 19:01:01 admin anacron[3391]: Jobs will be executed sequentially
+Nov  6 19:10:01 admin CROND[3480]: (root) CMD (/usr/lib/sa/sa1 1 1)
+Nov  6 19:11:01 admin anacron[3391]: Job `cron.daily' started
+Nov  6 19:11:01 admin run-parts(/etc/cron.daily)[3481]: starting cups
+Nov  6 19:11:01 admin run-parts(/etc/cron.daily)[3489]: finished cups
+Nov  6 19:11:01 admin run-parts(/etc/cron.daily)[3481]: starting logrotate
