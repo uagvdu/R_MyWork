@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActA	thread/thread.cpp	/^void* ActA(void* arg)$/;"	f
+ActB	thread/thread.cpp	/^void* ActB(void* arg)$/;"	f
+Afile	LogAnalyze.h	/^		Info_AFile Afile;		$/;"	m	class:LogSubA
+Bfile	LogAnalyze.h	/^		Info_BFile Bfile;$/;"	m	class:LogSubB
+CC	Makefile	/^CC=g++$/;"	m
+CC	thread/Makefile	/^CC=g++$/;"	m
+DST	thread/Makefile	/^DST=thread$/;"	m
+Display	LogAnalyze.cpp	/^void LogSubA::Display()$/;"	f	class:LogSubA
+Display	LogAnalyze.cpp	/^void LogSubB::Display()$/;"	f	class:LogSubB
+FD_SIZE	product/main.cpp	13;"	d	file:
+FillFile	product/main.cpp	/^void FillFile(int fd)$/;"	f
+GetFileType	LogAnalyze.cpp	/^char GetFileType(const string& filename)$/;"	f
+GetFilefd	LogAnalyze.cpp	/^int GetFilefd(string &filename)$/;"	f
+GetTs	LogAnalyze.cpp	/^thread_stu LogSubA::GetTs()$/;"	f	class:LogSubA
+GetTs	LogAnalyze.cpp	/^thread_stu LogSubB::GetTs()$/;"	f	class:LogSubB
+Info_AFile	LogAnalyze.h	/^struct Info_AFile$/;"	s
+Info_BFile	LogAnalyze.h	/^struct Info_BFile$/;"	s
+LIB	Makefile	/^LIB=-lpthread$/;"	m
+LIB	thread/Makefile	/^LIB=-lpthread$/;"	m
+LogBase	LogAnalyze.h	/^class LogBase$/;"	c
+LogSubA	LogAnalyze.cpp	/^LogSubA::LogSubA(thread_stu _ts)$/;"	f	class:LogSubA
+LogSubA	LogAnalyze.h	/^class LogSubA:public LogBase$/;"	c
+LogSubB	LogAnalyze.cpp	/^LogSubB::LogSubB(thread_stu _ts)$/;"	f	class:LogSubB
+LogSubB	LogAnalyze.h	/^class LogSubB:public LogBase$/;"	c
+PROG	Makefile	/^PROG=LogAnalyze$/;"	m
+SRC	Makefile	/^SRC=main.c LogAnalyze.cpp$/;"	m
+SRC	thread/Makefile	/^SRC=main.cpp thread.cpp$/;"	m
+SaveField	LogAnalyze.cpp	/^void LogBase::SaveField(vector<string> &v,string buf)$/;"	f	class:LogBase
+SegField	LogAnalyze.cpp	/^void LogSubA::SegField(string pathname)$/;"	f	class:LogSubA
+SegField	LogAnalyze.cpp	/^void LogSubB::SegField(string pathname)$/;"	f	class:LogSubB
+SubThread	LogAnalyze.cpp	/^int SubThread(LogBase *log)$/;"	f
+_date	LogAnalyze.h	/^	string _date;$/;"	m	struct:Info_AFile
+_dateb	LogAnalyze.h	/^	string _dateb;$/;"	m	struct:Info_BFile
+_datee	LogAnalyze.h	/^	string _datee;$/;"	m	struct:Info_BFile
+_host	LogAnalyze.h	/^	string _host;$/;"	m	struct:Info_BFile
+_hostA	LogAnalyze.h	/^	string _hostA;$/;"	m	struct:Info_AFile
+_hostB	LogAnalyze.h	/^	string _hostB;$/;"	m	struct:Info_AFile
+_num	LogAnalyze.h	/^	string _num;$/;"	m	struct:Info_AFile
+_num	LogAnalyze.h	/^	string _num;$/;"	m	struct:Info_BFile
+_phone	LogAnalyze.h	/^	string _phone;$/;"	m	struct:Info_AFile
+_phone	LogAnalyze.h	/^	string _phone;$/;"	m	struct:Info_BFile
+_portA	LogAnalyze.h	/^	string _portA;$/;"	m	struct:Info_AFile
+_portB	LogAnalyze.h	/^	string _portB;$/;"	m	struct:Info_AFile
+_url	LogAnalyze.h	/^	string _url;$/;"	m	struct:Info_AFile
+_user	LogAnalyze.h	/^	string _user;$/;"	m	struct:Info_AFile
+_user	LogAnalyze.h	/^	string _user;$/;"	m	struct:Info_BFile
+a	thread/main.cpp	/^int a = 0;$/;"	v
+main	main.cpp	/^int main()$/;"	f
+main	product/main.cpp	/^int main()$/;"	f
+main	thread/main.cpp	/^int main()$/;"	f
+mutex	LogAnalyze.h	/^	pthread_mutex_t mutex;$/;"	m	struct:thread_stu
+mutex	thread/main.cpp	/^pthread_mutex_t mutex=PTHREAD_MUTEX_INITIALIZER;$/;"	v
+mutex_dir	main.cpp	/^pthread_mutex_t mutex_dir=PTHREAD_MUTEX_INITIALIZER;$/;"	v
+pathname	LogAnalyze.h	/^	string pathname;$/;"	m	struct:thread_stu
+thread_run	LogAnalyze.cpp	/^ void * LogBase::thread_run(void *args)$/;"	f	class:LogBase
+thread_stu	LogAnalyze.h	/^	thread_stu(string pname)$/;"	f	struct:thread_stu
+thread_stu	LogAnalyze.h	/^struct thread_stu$/;"	s
+ts	LogAnalyze.h	/^		thread_stu ts;$/;"	m	class:LogSubA
+ts	LogAnalyze.h	/^		thread_stu ts;$/;"	m	class:LogSubB
